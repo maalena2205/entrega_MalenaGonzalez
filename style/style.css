@@ -271,3 +271,11 @@ a {
 .tamañoCarousel {
   width: 30%;
 }
+.coloresNavbar {
+  color: #e5eacd;
+}
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  justify-content: flex-end;
+}
