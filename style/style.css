@@ -1,3 +1,6 @@
+* {
+  border: solid red;
+}
 .concert-one-regular {
   font-family: "Concert One", sans-serif;
   font-weight: 400;
@@ -275,7 +278,23 @@ a {
   color: #e5eacd;
 }
 .navbar-expand-lg .navbar-collapse {
-  display: flex !important;
+  display: flex;
   flex-basis: auto;
   justify-content: flex-end;
+}
+.modificandoFooterBootstrap {
+  display: flex;
+  flex-basis: auto;
+  justify-content: center;
+  color: #e1ebb6;
+}
+.nav-link {
+  color: #e1ebb6;
+  font-family: "Concert One", sans-serif;
+}
+.active {
+  color: #e1ebb6;
+}
+.footer {
+  color: #4c5231;
 }
