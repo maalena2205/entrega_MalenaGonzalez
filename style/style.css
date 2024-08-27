@@ -1,5 +1,5 @@
 * {
-  border: solid red;
+  border: solid red 1px;
 }
 .concert-one-regular {
   font-family: "Concert One", sans-serif;
@@ -69,7 +69,6 @@ header {
   background-color: #868e5d;
   align-items: content;
   text-align: center;
-  margin: -10px;
   width: 100%;
 }
 
@@ -193,84 +192,7 @@ a {
 .imagenQuienSoy {
   width: 73%;
 }
-@media (max-width: 712px) {
-  .body {
-    display: flex;
-    flex-direction: column;
-  }
-  .section {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .nav-menu {
-    flex-direction: column;
-    margin-right: 0%;
-  }
 
-  .modificarIndex {
-    flex-direction: column;
-    height: 868px;
-  }
-  .imagenIndex {
-    width: 70%;
-  }
-  .p {
-    width: 80%;
-  }
-  .modificarHeader {
-    width: 100%;
-  }
-  .mediaQueriesIndex {
-    width: 100%;
-  }
-  .footer {
-    width: 100%;
-    margin-bottom: -6%;
-  }
-  .grid-container {
-    height: 51rem;
-    display: grid;
-    grid-template-rows: 100px 343px 334px;
-    grid-template-columns: 50%;
-    grid-template-areas:
-      "textouno"
-      "textodos"
-      "imagenuno";
-  }
-  .mainQuienSoy {
-    height: 54rem;
-  }
-  .imagenQuienSoy {
-    height: 50%;
-  }
-  .imagenesServicios {
-    height: 100px;
-  }
-}
-@media (min-width: 400px) and (max-width: 712px) {
-  .grid-container {
-    height: 51rem;
-    display: grid;
-    grid-template-rows: 100px 283px 329px;
-    grid-template-columns: 100%;
-    grid-template-areas:
-      "textouno"
-      "textodos"
-      "imagenuno";
-  }
-}
-@media (max-width: 399px) {
-  .grid-container {
-    height: 51rem;
-    display: grid;
-    grid-template-rows: 100px 431px 334px;
-    grid-template-columns: 100%;
-    grid-template-areas:
-      "textouno"
-      "textodos"
-      "imagenuno";
-  }
-}
 .tamañoCarousel {
   width: 30%;
 }
@@ -297,4 +219,24 @@ a {
 }
 .footer {
   color: #4c5231;
+}
+.container-fluid {
+  padding-left: 0%;
+  padding-right: 0%;
+  width: 100%;
+  border: 0%;
+}
+.modificarBody {
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+}
+.container {
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+  height: 100%;
+  width: 100%;
 }
