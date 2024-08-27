@@ -69,35 +69,32 @@
       </nav>
     </header>
     <main>
-      <section>
+      <section class="tituloContacto">
         <h2 class="tituloContacto">¡Nos ponemos en contacto con vos!</h2>
       </section>
-      <section>
-        <form
-          class="formularioContacto"
-          action="#"
-          method="get"
-          enctype="text/plain">
-          <input
-            type="text"
-            name="Nombre y Apellido"
-            id="nombreapellido"
-            placeholder="Nombre y Apellido" />
-          <input type="text" name="Correo" id="Mail" placeholder="Correo" />
-          <input
-            type="text"
-            name="Mensaje"
-            id="Mensaje"
-            placeholder="Mensaje" />
-          <input type="submit" name="Enviar" />
-          <input type="reset" name="Limpiar Formulario" />
-        </form>
+      <section class="sectionFormularioContacto">
+      <form class="formularioContacto">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Jamás será compartido con nadie más.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Número Telefónico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Mensaje</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
       </section>
-      <section>
+      <section class="sectionImagenFormulario">
         <img
           src="../assets/pnglogoconletras.png"
           alt="Logo amor humano terapias"
-          class="imagenFormulario" />
+          class="rounded-circle shadow logoContacto" />
       </section>
     </main>
     <footer class="footer">

@@ -146,9 +146,6 @@ a {
 .formularioContacto {
   padding-left: 28%;
 }
-.imagenFormulario {
-  padding-left: 33%;
-}
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -395,4 +392,23 @@ grid-item-imagen-servicios-registros {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 4%;
+}
+.formularioContacto {
+  width: 70%;
+  padding-left: 0%;
+}
+.sectionFormularioContacto {
+  display: flex;
+  justify-content: center;
+}
+.sectionImagenFormulario {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
+.logoContacto {
+  width: 15%;
+}
+.tituloContacto {
+  padding-top: 1.1%;
 }
