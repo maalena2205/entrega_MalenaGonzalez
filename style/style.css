@@ -163,19 +163,21 @@ a {
   display: grid;
   grid-area: textouno;
   height: 10%;
+  padding-top: 2%;
 }
 .grid-item-dos {
   display: grid;
   grid-area: textodos;
   width: 76%;
   height: 29%;
+  margin-top: 20%;
+  padding-left: 5%;
 }
 .grid-item-tres {
   display: grid;
   grid-area: imagenuno;
-  height: 90%;
   margin-left: 10%;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .mainQuienSoy {
   height: 583px;
@@ -187,7 +189,7 @@ a {
   flex-wrap: wrap;
 }
 .imagenQuienSoy {
-  width: 73%;
+  width: 60%;
 }
 
 .tamañoCarousel {
@@ -380,4 +382,17 @@ grid-item-imagen-servicios-registros {
 .grid-item-imagen-servicios-terapiasensorial {
   display: grid;
   grid-area: imagenterapiasensorial;
+}
+.fechasEventos {
+  display: flex;
+  justify-content: center;
+}
+.eventosProximos {
+  display: flex;
+  justify-content: space-around;
+}
+.eventosPasados {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4%;
 }
