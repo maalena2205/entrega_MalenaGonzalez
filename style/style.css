@@ -179,6 +179,7 @@ a {
 }
 .mainQuienSoy {
   height: 583px;
+  padding-bottom: 3%;
 }
 .modificarIndex {
   display: flex;
