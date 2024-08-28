@@ -467,7 +467,15 @@ grid-item-imagen-servicios-registros {
   }
   .imagenQuienSoy {
     width: 100%;
-    max-width: 300px; /* Opcional: limita el tamaño máximo de la imagen */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  .textoQuienSoy {
+    font-size: 70%;
+  }
+  .imagenQuienSoy {
+    width: 50%;
   }
 }
