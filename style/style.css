@@ -147,7 +147,7 @@ a {
 .formularioContacto {
   padding-left: 28%;
 }
-.grid-container {
+.grid-quiensoy {
   display: grid;
   grid-template-areas:
     "textouno textouno"
@@ -426,5 +426,53 @@ grid-item-imagen-servicios-registros {
 @media (max-width: 600px) {
   .imagen-index {
     width: 50%;
+  }
+}
+@media (max-width: 1024px) {
+  .grid-quiensoy {
+    display: grid;
+    grid-template-areas:
+      "textouno"
+      "textodos"
+      "imagenuno";
+    grid-template-rows: 20% 35% 66%;
+    grid-template-columns: 100%;
+    justify-self: center;
+    height: 100%;
+    unicode-bidi: embed;
+  }
+  .mainQuienSoy {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+  }
+  .tituloQuienSoy {
+    padding-top: 0%;
+  }
+  .textoQuienSoy {
+    margin-top: 0%;
+    padding-left: 0%;
+  }
+  .grid-item-tres {
+    display: grid;
+    grid-area: imagenuno;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  .grid-quiensoy {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    grid-template-rows: 1fr;
+    padding-bottom: 5%;
+  }
+  .imagenQuienSoy {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 650px) {
+  .textoQuienSoy {
+    font-size: 80%;
   }
 }
