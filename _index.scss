@@ -5,7 +5,7 @@ section {
   flex-wrap: wrap;
   h1 {
     font-family: $font-primary;
-    color: primary-color;
+    color: $primary-color;
     display: flex;
     align-content: flex-start;
     justify-content: space-around;
