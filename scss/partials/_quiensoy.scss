@@ -1,0 +1,43 @@
+.mainQuienSoy {
+  .grid-quiensoy {
+    display: grid;
+    grid-template-areas:
+      "textouno textouno"
+      "textodos imagenuno";
+    grid-template-rows: 12% 87%;
+    grid-template-columns: 50% 50%;
+    height: 475px;
+    justify-self: center;
+
+    .tituloQuienSoy {
+      font-family: "Concert One", sans-serif;
+      color: #4c5231;
+      display: flex;
+      align-content: flex-start;
+      justify-content: space-around;
+    }
+    .grid-item-uno {
+      display: grid;
+      grid-area: textouno;
+      height: 10%;
+      padding-top: 2%;
+    }
+    .grid-item-dos {
+      display: grid;
+      grid-area: textodos;
+      width: 76%;
+      height: 29%;
+      margin-top: 20%;
+      padding-left: 5%;
+    }
+    .grid-item-tres {
+      display: grid;
+      grid-area: imagenuno;
+      margin-left: 10%;
+      margin-top: 30px;
+    }
+    .imagenQuienSoy {
+      width: 60%;
+    }
+  }
+}

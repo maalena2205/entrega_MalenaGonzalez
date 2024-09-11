@@ -1,0 +1,289 @@
+p {
+  font-family: "LXGW WenKai Mono TC", monospace;
+  color: black;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.modificarIndex {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+.modificarIndex .modificarSubtitulos {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+.modificarIndex .modificarSubtitulos .textoIndex {
+  padding-bottom: 2%;
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+.modificarIndex .modificarSubtitulos .imagen-index {
+  padding-bottom: 2%;
+}
+
+.titulosEventos {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+
+section .modificarSubtitulos {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+section .fechasEventos {
+  display: flex;
+  justify-content: center;
+}
+
+.eventosProximos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imagenesEventos {
+  display: inline;
+  width: 21rem;
+}
+
+.mainQuienSoy .grid-quiensoy {
+  display: grid;
+  grid-template-areas: "textouno textouno" "textodos imagenuno";
+  grid-template-rows: 12% 87%;
+  grid-template-columns: 50% 50%;
+  height: 475px;
+  justify-self: center;
+}
+.mainQuienSoy .grid-quiensoy .tituloQuienSoy {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+.mainQuienSoy .grid-quiensoy .grid-item-uno {
+  display: grid;
+  grid-area: textouno;
+  height: 10%;
+  padding-top: 2%;
+}
+.mainQuienSoy .grid-quiensoy .grid-item-dos {
+  display: grid;
+  grid-area: textodos;
+  width: 76%;
+  height: 29%;
+  margin-top: 20%;
+  padding-left: 5%;
+}
+.mainQuienSoy .grid-quiensoy .grid-item-tres {
+  display: grid;
+  grid-area: imagenuno;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+.mainQuienSoy .grid-quiensoy .imagenQuienSoy {
+  width: 60%;
+}
+
+.tituloServicios {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+
+.grid-container-servicios-consultoria {
+  display: grid;
+  grid-template-areas: "titulouno titulouno" "imagenuno textouno";
+  grid-template-rows: 20% 80%;
+  grid-template-columns: 6% 94%;
+  justify-self: center;
+  padding-left: 6%;
+}
+.grid-container-servicios-consultoria .modificarSubtitulos {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+.grid-container-servicios-consultoria .grid-item-titulo-servicios-consultoria {
+  display: grid;
+  grid-area: titulouno;
+  height: 100%;
+  justify-self: center;
+  padding-right: 7%;
+}
+.grid-container-servicios-consultoria .grid-item-texto-servicios-consultoria {
+  display: grid;
+  grid-area: textouno;
+  width: 85%;
+}
+.grid-container-servicios-consultoria .imagenesServicios {
+  width: 125px;
+}
+.grid-container-servicios-consultoria .grid-item-imagen-servicios-consultoria {
+  display: grid;
+  grid-area: imagenuno;
+}
+
+.grid-container-servicios-terapiafloral {
+  display: grid;
+  grid-template-areas: "tituloterapiafloral tituloterapiafloral" " textoterapiafloral imagenterapiafloral";
+  grid-template-rows: 17% 83%;
+  grid-template-columns: 94% 6%;
+  justify-self: center;
+  padding-right: 6%;
+}
+.grid-container-servicios-terapiafloral .modificarSubtitulos {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+.grid-container-servicios-terapiafloral .grid-item-titulo-servicios-terapiafloral {
+  display: grid;
+  grid-area: tituloterapiafloral;
+  height: 100%;
+  padding-left: 5%;
+}
+.grid-container-servicios-terapiafloral .grid-item-texto-servicios-terapiafloral {
+  display: grid;
+  grid-area: textoterapiafloral;
+  width: 85%;
+}
+.grid-container-servicios-terapiafloral .imagenesServicios {
+  width: 125px;
+}
+.grid-container-servicios-terapiafloral .grid-item-imagen-servicios-terapiafloral {
+  display: grid;
+  grid-area: imagenterapiafloral;
+}
+
+.grid-container-servicios-reiki {
+  display: grid;
+  grid-template-areas: "tituloreiki tituloreiki" "imagenreiki textoreiki";
+  grid-template-rows: 20% 80%;
+  grid-template-columns: 6% 94%;
+  justify-self: center;
+  padding-left: 6%;
+}
+.grid-container-servicios-reiki .modificarSubtitulos {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+.grid-container-servicios-reiki .grid-item-titulo-servicios-reiki {
+  display: grid;
+  grid-area: tituloreiki;
+  height: 100%;
+  justify-self: center;
+  padding-right: 7%;
+}
+.grid-container-servicios-reiki .grid-item-texto-servicios-reiki {
+  display: grid;
+  grid-area: textoreiki;
+  width: 85%;
+}
+.grid-container-servicios-reiki .imagenesServicios {
+  width: 125px;
+}
+.grid-container-servicios-reiki .grid-item-imagen-servicios-reiki {
+  display: grid;
+  grid-area: imagenreiki;
+}
+
+.grid-container-servicios-registros {
+  display: grid;
+  grid-template-areas: "tituloregistros tituloregistros" " textoregistros imagenregistros";
+  grid-template-rows: 17% 83%;
+  grid-template-columns: 94% 6%;
+  justify-self: center;
+  padding-right: 6%;
+}
+.grid-container-servicios-registros .modificarSubtitulos {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+.grid-container-servicios-registros .grid-item-titulo-servicios-registros {
+  display: grid;
+  grid-area: tituloregistros;
+  height: 100%;
+  padding-left: 5%;
+}
+.grid-container-servicios-registros .grid-item-texto-servicios-registros {
+  display: grid;
+  grid-area: textoregistros;
+  width: 85%;
+}
+.grid-container-servicios-registros .imagenesServicios {
+  width: 125px;
+}
+.grid-container-servicios-registros .grid-item-imagen-servicios-registros {
+  display: grid;
+  grid-area: imagenregistros;
+}
+
+.grid-container-servicios-terapiasensorial {
+  display: grid;
+  grid-template-areas: "tituloterapiasensorial tituloterapiasensorial" "imagenterapiasensorial textoterapiasensorial";
+  grid-template-rows: 20% 80%;
+  grid-template-columns: 6% 94%;
+  justify-self: center;
+  padding-left: 6%;
+}
+.grid-container-servicios-terapiasensorial .modificarSubtitulos {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+.grid-container-servicios-terapiasensorial .grid-item-titulo-servicios-terapiasensorial {
+  display: grid;
+  grid-area: tituloterapiasensorial;
+  height: 100%;
+  justify-self: center;
+  padding-right: 7%;
+}
+.grid-container-servicios-terapiasensorial .grid-item-texto-servicios-terapiasensorial {
+  display: grid;
+  grid-area: textoterapiasensorial;
+  width: 85%;
+}
+.grid-container-servicios-terapiasensorial .imagenesServicios {
+  width: 125px;
+}
+.grid-container-servicios-terapiasensorial .grid-item-imagen-servicios-terapiasensorial {
+  display: grid;
+  grid-area: imagenterapiasensorial;
+}
+
+/*# sourceMappingURL=style.css.map */
