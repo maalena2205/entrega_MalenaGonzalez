@@ -16,3 +16,9 @@ body {
   padding: 0;
   background-color: $tertiary-color;
 }
+%tituloServiciosBase {
+  display: grid;
+  grid-area: titulouno;
+  height: 100%;
+  justify-self: center;
+}

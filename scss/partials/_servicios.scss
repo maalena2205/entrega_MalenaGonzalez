@@ -129,7 +129,7 @@
 
   .modificarSubtitulos {
     font-family: "Concert One", sans-serif;
-    color: #4c5231;
+    color: #4c5232;
     display: flex;
     align-content: flex-start;
     justify-content: space-around;
@@ -190,5 +190,17 @@
   .grid-item-imagen-servicios-terapiasensorial {
     display: grid;
     grid-area: imagenterapiasensorial;
+  }
+}
+@media (max-width: 1024px) {
+  .grid-container-servicios-consultoria {
+    display: grid;
+    grid-template-areas:
+      "titulouno"
+      "imagenuno"
+      "textouno";
+    grid-template-rows: 20% 30% 50%;
+    grid-template-columns: 94%;
+    justify-self: center;
   }
 }

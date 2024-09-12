@@ -44,20 +44,20 @@ body {
   margin-left: 398px;
 }
 
+@media (max-width: 768px) {
+  .tituloContacto {
+    font-size: 1rem;
+  }
+  .logoContacto {
+    width: 30%;
+  }
+}
 .tituloContacto {
   font-family: "Concert One", sans-serif;
   color: #4c5231;
   display: flex;
   align-content: flex-start;
   justify-content: space-around;
-}
-.tituloContacto .tituloContacto {
-  font-family: "Concert One", sans-serif;
-  color: #4c5231;
-  display: flex;
-  align-content: flex-start;
-  justify-content: space-around;
-  padding-top: 1.1%;
 }
 
 .sectionFormularioContacto {
@@ -87,7 +87,7 @@ body {
   justify-content: space-around;
 }
 
-section .modificarSubtitulos {
+.sectionEventosProximos .modificarSubtitulos {
   font-family: "Concert One", sans-serif;
   color: #4c5231;
   display: flex;
@@ -95,17 +95,37 @@ section .modificarSubtitulos {
   justify-content: space-around;
   padding-bottom: 2%;
 }
-section .fechasEventos {
+.sectionEventosProximos .fechasEventos {
   display: flex;
   justify-content: center;
 }
+.sectionEventosProximos .imagenesEventos {
+  display: inline;
+  width: 21rem;
+}
 
-.eventosProximos {
+.sectionEventosPasados {
   display: flex;
   justify-content: space-around;
 }
-
-.imagenesEventos {
+.sectionEventosPasados .modificarSubtitulos {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+.sectionEventosPasados .eventosPasados {
+  display: flex;
+  justify-content: space-around;
+}
+.sectionEventosPasados .imagenesEventos {
+  display: inline;
+  width: 21rem;
+}
+.sectionEventosPasados .imagenesEventos {
+  display: inline;
   width: 21rem;
 }
 
@@ -114,52 +134,12 @@ section .fechasEventos {
     width: 50%;
   }
 }
-@media (max-width: 1024px) {
-  .grid-quiensoy {
-    display: grid;
-    grid-template-areas: "textouno" "textodos" "imagenuno";
-    grid-template-rows: 20% 35% 66%;
-    grid-template-columns: 100%;
-    justify-self: center;
-    height: 100%;
-    unicode-bidi: embed;
+@media (max-width: 768px) {
+  .tituloContacto {
+    font-size: 1rem;
   }
-  .mainQuienSoy {
-    height: 100%;
-    display: grid;
-    justify-content: center;
-  }
-  .tituloQuienSoy {
-    padding-top: 0%;
-  }
-  .textoQuienSoy {
-    margin-top: 0%;
-    padding-left: 0%;
-  }
-  .grid-item-tres {
-    display: grid;
-    grid-area: imagenuno;
-    margin-left: 0%;
-    margin-top: 0%;
-  }
-  .grid-quiensoy {
-    grid-template-columns: 1fr;
-    gap: 10px;
-    grid-template-rows: 1fr;
-    padding-bottom: 5%;
-  }
-  .imagenQuienSoy {
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
-  }
-}
-@media (max-width: 600px) {
-  .textoQuienSoy {
-    font-size: 70%;
-  }
-  .imagenQuienSoy {
-    width: 50%;
+  .logoContacto {
+    width: 30%;
   }
 }
 .mainQuienSoy {
@@ -172,6 +152,7 @@ section .fechasEventos {
   grid-template-columns: 50% 50%;
   height: 475px;
   justify-self: center;
+  padding-top: 19%;
 }
 .mainQuienSoy .grid-quiensoy .tituloQuienSoy {
   font-family: "Concert One", sans-serif;
@@ -241,36 +222,28 @@ section .fechasEventos {
   }
   .mainQuienSoy .imagenQuienSoy {
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
     margin: 0 auto;
-  }
-}
-@media (max-width: 1024px) and (max-width: 600px) {
-  .mainQuienSoy {
-    display: flex;
-  }
-  .mainQuienSoy .textoQuienSoy {
-    font-size: 70%;
-    height: 17rem;
-  }
-  .mainQuienSoy .imagenQuienSoy {
-    width: 50%;
-    padding-top: 0%;
+    padding-bottom: 8rem;
   }
 }
 
 @media (max-width: 600px) {
+  .quienSoyMobile,
   .mainQuienSoy {
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding-top: 8rem;
+    padding-top: 19%;
   }
   .quienSoyMobile {
     display: flex;
     justify-content: center;
     align-content: space-between;
     flex-wrap: wrap;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
   }
   .textoQuienSoy {
     font-size: 70%;
@@ -278,7 +251,9 @@ section .fechasEventos {
   }
   .imagenQuienSoy {
     width: 30rem;
-    padding-bottom: 5rem;
+  }
+  .tituloQuienSoy {
+    padding-top: 8rem;
   }
 }
 .tituloServicios {
@@ -341,15 +316,13 @@ section .fechasEventos {
   justify-content: space-around;
   padding-bottom: 2%;
 }
-.grid-container-servicios-terapiafloral
-  .grid-item-titulo-servicios-terapiafloral {
+.grid-container-servicios-terapiafloral .grid-item-titulo-servicios-terapiafloral {
   display: grid;
   grid-area: tituloterapiafloral;
   height: 100%;
   padding-left: 5%;
 }
-.grid-container-servicios-terapiafloral
-  .grid-item-texto-servicios-terapiafloral {
+.grid-container-servicios-terapiafloral .grid-item-texto-servicios-terapiafloral {
   display: grid;
   grid-area: textoterapiafloral;
   width: 85%;
@@ -357,8 +330,7 @@ section .fechasEventos {
 .grid-container-servicios-terapiafloral .imagenesServicios {
   width: 125px;
 }
-.grid-container-servicios-terapiafloral
-  .grid-item-imagen-servicios-terapiafloral {
+.grid-container-servicios-terapiafloral .grid-item-imagen-servicios-terapiafloral {
   display: grid;
   grid-area: imagenterapiafloral;
 }
@@ -409,7 +381,7 @@ section .fechasEventos {
 }
 .grid-container-servicios-registros .modificarSubtitulos {
   font-family: "Concert One", sans-serif;
-  color: #4c5231;
+  color: #4c5232;
   display: flex;
   align-content: flex-start;
   justify-content: space-around;
@@ -450,16 +422,14 @@ section .fechasEventos {
   justify-content: space-around;
   padding-bottom: 2%;
 }
-.grid-container-servicios-terapiasensorial
-  .grid-item-titulo-servicios-terapiasensorial {
+.grid-container-servicios-terapiasensorial .grid-item-titulo-servicios-terapiasensorial {
   display: grid;
   grid-area: tituloterapiasensorial;
   height: 100%;
   justify-self: center;
   padding-right: 7%;
 }
-.grid-container-servicios-terapiasensorial
-  .grid-item-texto-servicios-terapiasensorial {
+.grid-container-servicios-terapiasensorial .grid-item-texto-servicios-terapiasensorial {
   display: grid;
   grid-area: textoterapiasensorial;
   width: 85%;
@@ -467,12 +437,20 @@ section .fechasEventos {
 .grid-container-servicios-terapiasensorial .imagenesServicios {
   width: 125px;
 }
-.grid-container-servicios-terapiasensorial
-  .grid-item-imagen-servicios-terapiasensorial {
+.grid-container-servicios-terapiasensorial .grid-item-imagen-servicios-terapiasensorial {
   display: grid;
   grid-area: imagenterapiasensorial;
 }
 
+@media (max-width: 1024px) {
+  .grid-container-servicios-consultoria {
+    display: grid;
+    grid-template-areas: "titulouno" "imagenuno" "textouno";
+    grid-template-rows: 20% 30% 50%;
+    grid-template-columns: 94%;
+    justify-self: center;
+  }
+}
 header {
   display: flex;
   display: inline;
@@ -481,8 +459,6 @@ header {
   background-color: #42491f;
   align-items: content;
   text-align: center;
-  --bs-gutter-x: 0;
-  --bs-gutter-y: 0;
 }
 header .navbar {
   background-color: #848e54;

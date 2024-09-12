@@ -1,5 +1,5 @@
 .mainQuienSoy {
-  min-height: 85vh;
+  min-height: 100%;
   .grid-quiensoy {
     display: grid;
     grid-template-areas:
@@ -9,7 +9,7 @@
     grid-template-columns: 50% 50%;
     height: 475px;
     justify-self: center;
-
+    padding-top: 19%;
     .tituloQuienSoy {
       font-family: "Concert One", sans-serif;
       color: #4c5231;
@@ -40,5 +40,79 @@
     .imagenQuienSoy {
       width: 60%;
     }
+  }
+  @media (max-width: 1024px) {
+    .grid-quiensoy {
+      display: grid;
+      grid-template-areas:
+        "textouno"
+        "textodos"
+        "imagenuno";
+      grid-template-rows: 20% 35% 66%;
+      grid-template-columns: 100%;
+      justify-self: center;
+      height: 100%;
+      unicode-bidi: embed;
+      align-content: center;
+    }
+    .mainQuienSoy {
+      height: 100%;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+    }
+    .tituloQuienSoy {
+      padding-top: 0%;
+    }
+    .textoQuienSoy {
+      margin-top: 0%;
+      padding-left: 0%;
+    }
+    .grid-item-tres {
+      display: grid;
+      grid-area: imagenuno;
+      margin-left: 0%;
+      margin-top: 0%;
+    }
+    .grid-quiensoy {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      grid-template-rows: 1fr;
+      padding-bottom: 5%;
+    }
+    .imagenQuienSoy {
+      width: 100%;
+      max-width: 200px;
+      margin: 0 auto;
+      padding-bottom: 8rem;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .quienSoyMobile,
+  .mainQuienSoy {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 19%;
+  }
+  .quienSoyMobile {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+  .textoQuienSoy {
+    font-size: 70%;
+    height: 100%;
+  }
+  .imagenQuienSoy {
+    width: 30rem;
+  }
+  .tituloQuienSoy {
+    padding-top: 8rem;
   }
 }

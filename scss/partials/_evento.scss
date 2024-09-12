@@ -1,11 +1,11 @@
 .titulosEventos {
-  font-family: "Concert One", sans-serif;
+  font-family: $font-primary;
   color: #4c5231;
   display: flex;
   align-content: flex-start;
   justify-content: space-around;
 }
-section {
+.sectionEventosProximos {
   .modificarSubtitulos {
     font-family: "Concert One", sans-serif;
     color: #4c5231;
@@ -18,12 +18,32 @@ section {
     display: flex;
     justify-content: center;
   }
+  .imagenesEventos {
+    display: inline;
+    width: 21rem;
+  }
 }
-.eventosProximos {
+.sectionEventosPasados {
   display: flex;
   justify-content: space-around;
-}
-.imagenesEventos {
-  display: inline;
-  width: 21rem;
+  .modificarSubtitulos {
+    font-family: "Concert One", sans-serif;
+    color: #4c5231;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    padding-bottom: 2%;
+  }
+  .eventosPasados {
+    display: flex;
+    justify-content: space-around;
+  }
+  .imagenesEventos {
+    display: inline;
+    width: 21rem;
+  }
+  .imagenesEventos {
+    display: inline;
+    width: 21rem;
+  }
 }
