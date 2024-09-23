@@ -1,14 +1,26 @@
 .titulosEventos {
   font-family: $font-primary;
-  color: #4c5231;
+  color: $primary-color;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+h1 {
+  font-family: $font-primary;
+  color: $primary-color;
   display: flex;
   align-content: flex-start;
   justify-content: space-around;
 }
 .sectionEventosProximos {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  padding-bottom: 2%;
   .modificarSubtitulos {
-    font-family: "Concert One", sans-serif;
-    color: #4c5231;
+    font-family: $font-primary;
+    color: $primary-color;
     display: flex;
     align-content: flex-start;
     justify-content: space-around;
@@ -22,13 +34,19 @@
     display: inline;
     width: 21rem;
   }
+  .eventosProximos {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 .sectionEventosPasados {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+  padding-bottom: 2%;
   .modificarSubtitulos {
-    font-family: "Concert One", sans-serif;
-    color: #4c5231;
+    font-family: $font-primary;
+    color: $primary-color;
     display: flex;
     align-content: flex-start;
     justify-content: space-around;
@@ -38,12 +56,54 @@
     display: flex;
     justify-content: space-around;
   }
-  .imagenesEventos {
-    display: inline;
-    width: 21rem;
+  .textoEventosPasados {
+    display: flex;
+    justify-content: center;
   }
   .imagenesEventos {
     display: inline;
     width: 21rem;
+  }
+}
+@media (max-width: 1024px) {
+  .sectionEventosProximos {
+    display: flex;
+  }
+  .sectionEventosPasados {
+    display: flex;
+    flex-direction: column;
+  }
+  .eventosProximos {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 46rem;
+  }
+  .eventosPasados {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 70rem;
+  }
+  .imagenesEventos {
+    gap: 20px;
+  }
+}
+@media (max-width: 728px) {
+  .sectionEventosProximos .imagenesEventos {
+    width: 14rem;
+  }
+  .eventosProximos {
+    height: 35rem;
+  }
+  .eventosPasados {
+    height: 50rem;
+  }
+  .sectionEventosPasados .imagenesEventos {
+    width: 14rem;
   }
 }

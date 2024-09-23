@@ -2,7 +2,7 @@ $primary-color: #4c5231;
 $secondary-color: #848e54;
 $tertiary-color: #e5eacd;
 $font-primary: "Concert One", sans-serif;
-$font-secondary: "Calistoga", sans-serif;
+$font-secondary: "LXGW WenKai Mono TC", monospace;
 p {
   font-family: "LXGW WenKai Mono TC", monospace;
   color: black;
@@ -16,9 +16,7 @@ body {
   padding: 0;
   background-color: $tertiary-color;
 }
-%tituloServiciosBase {
-  display: grid;
-  grid-area: titulouno;
-  height: 100%;
-  justify-self: center;
+%subtitulosservicios {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
 }

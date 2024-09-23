@@ -1,16 +1,16 @@
 header {
   display: flex;
   display: inline;
-  font-family: "Concert One", sans-serif;
-  color: #42491f;
-  background-color: #42491f;
+  font-family: $font-primary;
+  color: $primary-color;
+  background-color: $primary-color;
   align-items: content;
   text-align: center;
 
   .navbar {
     background-color: $secondary-color;
     .coloresNavbar {
-      color: #e5eacd;
+      color: $tertiary-color;
     }
   }
 }

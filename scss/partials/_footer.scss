@@ -6,13 +6,13 @@
   display: flex;
   flex-basis: auto;
   justify-content: center;
-  color: #e1ebb6;
+  color: $tertiary-color;
 }
 .footer {
   display: inline;
   display: flex;
   justify-content: center;
-  background-color: #848e54;
+  background-color: $secondary-color;
   width: auto;
-  color: #4c5231;
+  color: $primary-color;
 }
