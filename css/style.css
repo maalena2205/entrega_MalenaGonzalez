@@ -24,6 +24,7 @@ body {
   justify-content: center;
   align-content: space-between;
   flex-wrap: wrap;
+  padding-bottom: 6.5rem;
 }
 .modificarIndex .modificarSubtitulos {
   font-family: "Concert One", sans-serif;
@@ -49,12 +50,9 @@ body {
   margin-left: 398px;
 }
 
-@media (max-width: 768px) {
-  .tituloContacto {
-    font-size: 1rem;
-  }
-  .logoContacto {
-    width: 30%;
+@media (max-width: 600px) {
+  .imagen-index {
+    width: 50%;
   }
 }
 .tituloContacto {
@@ -81,9 +79,20 @@ body {
   padding-bottom: 3%;
 }
 .sectionImagenFormulario .logoContacto {
-  width: 15%;
+  width: 20%;
 }
 
+@media (max-width: 768px) {
+  .tituloContacto {
+    font-size: 1.5rem;
+  }
+  .sectionImagenFormulario .logoContacto {
+    width: 50%;
+  }
+  .sectionImagenFormulario .logoContacto .sectionImagenFormulario {
+    width: 50%;
+  }
+}
 .titulosEventos {
   font-family: "Concert One", sans-serif;
   color: #4c5231;
@@ -195,19 +204,6 @@ h1 {
   }
   .sectionEventosPasados .imagenesEventos {
     width: 14rem;
-  }
-}
-@media (max-width: 600px) {
-  .imagen-index {
-    width: 50%;
-  }
-}
-@media (max-width: 768px) {
-  .tituloContacto {
-    font-size: 1rem;
-  }
-  .logoContacto {
-    width: 30%;
   }
 }
 .mainQuienSoy {
@@ -487,24 +483,8 @@ h1 {
     display: flex;
     justify-content: center;
   }
-  .grid-container-servicios-terapiafloral {
-    padding-top: 10%;
-    padding-left: 0%;
-    padding-right: 0%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-  .grid-container-servicios-reiki {
-    padding-top: 10%;
-    padding-left: 0%;
-    padding-right: 0%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
+  .grid-container-servicios-terapiafloral,
+  .grid-container-servicios-reiki,
   .grid-container-servicios-registros {
     padding-top: 10%;
     padding-left: 0%;
@@ -523,6 +503,13 @@ h1 {
     align-content: center;
     align-items: center;
     padding-bottom: 5%;
+  }
+  .grid-item-texto-servicios-consultoria,
+  .grid-item-texto-servicios-registros,
+  .grid-item-texto-servicios-reiki,
+  .grid-item-texto-servicios-terapiafloral,
+  .grid-item-texto-servicios-terapiasensorial {
+    font-size: small;
   }
 }
 header {

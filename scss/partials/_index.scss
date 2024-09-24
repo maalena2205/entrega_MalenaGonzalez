@@ -3,6 +3,7 @@
   justify-content: center;
   align-content: space-between;
   flex-wrap: wrap;
+  padding-bottom: 6.5rem;
   .modificarSubtitulos {
     font-family: $font-primary;
     color: $primary-color;
@@ -26,5 +27,10 @@
       height: 570px;
       margin-left: 398px;
     }
+  }
+}
+@media (max-width: 600px) {
+  .imagen-index {
+    width: 50%;
   }
 }

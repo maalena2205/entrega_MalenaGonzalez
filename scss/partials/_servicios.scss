@@ -200,24 +200,8 @@
       justify-content: center;
     }
   }
-  .grid-container-servicios-terapiafloral {
-    padding-top: 10%;
-    padding-left: 0%;
-    padding-right: 0%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-  .grid-container-servicios-reiki {
-    padding-top: 10%;
-    padding-left: 0%;
-    padding-right: 0%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
+  .grid-container-servicios-terapiafloral,
+  .grid-container-servicios-reiki,
   .grid-container-servicios-registros {
     padding-top: 10%;
     padding-left: 0%;
@@ -236,5 +220,12 @@
     align-content: center;
     align-items: center;
     padding-bottom: 5%;
+  }
+  .grid-item-texto-servicios-consultoria,
+  .grid-item-texto-servicios-registros,
+  .grid-item-texto-servicios-reiki,
+  .grid-item-texto-servicios-terapiafloral,
+  .grid-item-texto-servicios-terapiasensorial {
+    font-size: $font-size-servicios;
   }
 }

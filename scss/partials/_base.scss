@@ -3,6 +3,7 @@ $secondary-color: #848e54;
 $tertiary-color: #e5eacd;
 $font-primary: "Concert One", sans-serif;
 $font-secondary: "LXGW WenKai Mono TC", monospace;
+$font-size-servicios: small;
 p {
   font-family: "LXGW WenKai Mono TC", monospace;
   color: black;
@@ -19,4 +20,7 @@ body {
 %subtitulosservicios {
   font-family: "Concert One", sans-serif;
   color: #4c5231;
+}
+%tamañoletrasserviciosmobile {
+  font-size: small;
 }
