@@ -93,6 +93,16 @@ body {
     width: 50%;
   }
 }
+.modificarColorBotonForm {
+  color: #e5eacd;
+  background-color: #848e54;
+}
+
+.fuentesForm {
+  font-family: "Concert One", sans-serif;
+  color: #4c5231;
+}
+
 .titulosEventos {
   font-family: "Concert One", sans-serif;
   color: #4c5231;
