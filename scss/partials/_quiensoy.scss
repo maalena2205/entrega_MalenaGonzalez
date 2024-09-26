@@ -72,11 +72,11 @@
     }
     .grid-quiensoy {
       gap: 10px;
-      padding-bottom: 5%;
+      padding-bottom: 15%;
     }
     .imagenQuienSoy {
       width: 100%;
-      max-width: 200px;
+      max-width: 300px;
     }
   }
 }
@@ -89,5 +89,15 @@
   }
   .mainQuienSoy .grid-quiensoy .imagenQuienSoy {
     width: 70%;
+    padding-bottom: 3rem;
+  }
+  .imagenQuienSoy {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .imagenQuienSoy {
+    width: 100%;
+    padding-bottom: 20%;
   }
 }

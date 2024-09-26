@@ -36,10 +36,7 @@ body {
 }
 .modificarIndex .modificarSubtitulos .textoIndex {
   padding-bottom: 2%;
-  font-family: "Concert One", sans-serif;
-  color: #4c5231;
-  margin-left: 13%;
-  margin-right: 13%;
+  margin: 0 13%;
 }
 .modificarIndex .modificarSubtitulos .imagen-index {
   padding-bottom: 3%;
@@ -51,6 +48,9 @@ body {
 }
 
 @media (max-width: 600px) {
+  .modificarIndex {
+    padding-bottom: 7.5rem;
+  }
   .imagen-index {
     width: 50%;
   }
@@ -285,11 +285,11 @@ h1 {
   }
   .mainQuienSoy .grid-quiensoy {
     gap: 10px;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
   }
   .mainQuienSoy .imagenQuienSoy {
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
   }
 }
 
@@ -302,6 +302,16 @@ h1 {
   }
   .mainQuienSoy .grid-quiensoy .imagenQuienSoy {
     width: 70%;
+    padding-bottom: 3rem;
+  }
+  .imagenQuienSoy {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .imagenQuienSoy {
+    width: 100%;
+    padding-bottom: 20%;
   }
 }
 .tituloServicios {

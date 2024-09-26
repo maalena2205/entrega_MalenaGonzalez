@@ -4,6 +4,7 @@
   align-content: space-between;
   flex-wrap: wrap;
   padding-bottom: 6.5rem;
+
   .modificarSubtitulos {
     font-family: $font-primary;
     color: $primary-color;
@@ -14,14 +15,13 @@
 
     .textoIndex {
       padding-bottom: 2%;
-      font-family: $font-primary;
-      color: $primary-color;
-      margin-left: 13%;
-      margin-right: 13%;
+      margin: 0 13%;
     }
+
     .imagen-index {
       padding-bottom: 3%;
     }
+
     .modificarTamañoImagenes {
       width: 570px;
       height: 570px;
@@ -29,7 +29,12 @@
     }
   }
 }
+
 @media (max-width: 600px) {
+  .modificarIndex {
+    padding-bottom: 7.5rem;
+  }
+
   .imagen-index {
     width: 50%;
   }
